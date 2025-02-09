@@ -8,9 +8,11 @@
 		"dev": "pnpm run build && pnpm run start"
 	},
 	"devDependencies": {
+		"@types/node": "^22.13.1",
 		"typescript": "^5.7.3"
 	},
 	"dependencies": {
-		"@jup-ag/api": "^6.0.39"
+		"@jup-ag/api": "^6.0.39",
+		"dotenv": "^16.4.7"
 	}
 }
